@@ -81,11 +81,19 @@ MIT License.
 ## 📂 Suggested Repo Structure:
 
 telegram_bot/
+
 ├── bot.py
+
 ├── ai_engine.py
+
 ├── database.py
+
 ├── models.py
+
 ├── requirements.txt
+
 ├── .env.example
+
 ├── README.md
+
 ├── expenses.db (auto-generated)
