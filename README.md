@@ -26,20 +26,20 @@ A simple Telegram bot for tracking monthly budgets and daily expenses using Hugg
 ## ⚙️ Setup Instructions
 
 1. **Clone repository:**
-```bash
+bash
 git clone https://github.com/your-username/expense-tracker-telegram-bot.git
 cd expense-tracker-telegram-bot
 
 
 2.	**Setup virtual environment (optional but recommended):**
 
-```bash
+bash
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 3.	**Install dependencies:**
 
-```bash
+bash
 pip install -r requirements.txt
 
 4.	**Setup environment variables:**
@@ -48,7 +48,7 @@ TELEGRAM_BOT_TOKEN=your_telegram_token_here
 HUGGINGFACE_API_KEY=your_huggingface_api_key_here
 
 5.	Run the bot:
-```bash
+bash
 python bot.py
 
 📊 Commands
