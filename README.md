@@ -26,8 +26,9 @@ A simple Telegram bot for tracking monthly budgets and daily expenses using Hugg
 ## ⚙️ Setup Instructions
 
 1. **Clone repository:**
+
 bash
-git clone https://github.com/your-username/expense-tracker-telegram-bot.git
+git clone https://github.com/anirudhmlik/expense-tracker-telegram-bot.git
 cd expense-tracker-telegram-bot
 
 
@@ -51,24 +52,25 @@ HUGGINGFACE_API_KEY=your_huggingface_api_key_here
 bash
 python bot.py
 
-📊 Commands
+## 📊 Commands
+
 	•	/start — Start interaction
 	•	/setbudget <amount> — Set monthly budget
 	•	/addexpense <amount> <category> [description] — Add expense
 	•	/report — See spending summary
 
-⸻
 
-🛡️ Notes
+## 🛡️ Notes
+
 	•	Hugging Face API used for intent parsing (can be swapped with local LLM if needed).
 	•	SQLite stores expenses locally (expenses.db).
 
-⸻
 
-📤 Deployment
+
+## 📤 Deployment
 	•	Ideal for hosting on Railway, Render, or other Python-friendly platforms.
 
-⸻
+---
 
 📄 License
 
